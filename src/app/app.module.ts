@@ -9,6 +9,7 @@ import { UserPrescriptionContainerComponent } from './user-prescription-containe
 import { UserRefillContainerComponent } from './user-refill-container/user-refill-container.component';
 import { UserReminderContainerComponent } from './user-reminder-container/user-reminder-container.component';
 import { LandingPageSignupComponent } from './landing-page-signup/landing-page-signup.component';
+import { LandingPageLoginComponent } from './landing-page-login/landing-page-login.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LandingPageSignupComponent } from './landing-page-signup/landing-page-s
     UserPrescriptionContainerComponent,
     UserRefillContainerComponent,
     UserReminderContainerComponent,
-    LandingPageSignupComponent
+    LandingPageSignupComponent,
+    LandingPageLoginComponent
   ],
   imports: [
     BrowserModule,
