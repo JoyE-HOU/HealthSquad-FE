@@ -6,16 +6,32 @@
 
     <section>
         <label for="name">name</label>
+        <select name="name" id="name">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
     </section>
 
     <section>
-        <label for="">time</label>
-        <p>Please select option</p>
-        <label for="">Please select option</label>
-        <input type="checkbox" name="time-of-day" id="morning" value="morning">
-        <input type="checkbox" name="time-of-day" id="afternoon" value="afternoon">
-        <input type="checkbox" name="time-of-day" id="evening" value="evening">
-        <input type="checkbox" name="time-of-day" id="specific" value="specific">
+        <p>Please select time option:</p>
+
+        <input type="radio" name="time-of-day" id="morning" value="morning">
+        <label for="morning">Morning</label>
+        <br>
+
+        <input type="radio" name="time-of-day" id="afternoon" value="afternoon">
+        <label for="afternoon">Afternoon</label>
+        <br>
+
+        <input type="radio" name="time-of-day" id="evening" value="evening">
+        <label for="evening">Evening</label>
+        <br>
+
+        <input type="radio" name="time-of-day" id="specific" value="specific">
+        <label for="specific">Specific Time</label>
+        <br>
+
     </section>
 
 </form>
