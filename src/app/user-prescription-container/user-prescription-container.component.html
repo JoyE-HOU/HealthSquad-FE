@@ -1,15 +1,30 @@
-<section class="#prescription">Prescription Container</section>
+<section id="#prescription-container">Prescription Container</section>
 <p>[name of prescription]</p>
+
 <button>Edit Prescription</button>
-<button>Delete Prescription</button>
-<button>Add Prescription</button>
-<button>Download</button>
+<!-- edit prescription window -->
+<form action="" class="pop-up-window">
+    <h3>Edit existing prescription</h3>
+    <label for="name">[select prescription]</label>
+    <label for="time">[edit time]</label>
+    <button>Update</button>
+    <button>Close</button>
+</form>
 <br>
 
-<!-- edit prescription window -->
-<h3>Edit existing prescription</h3>
-<p>[select prescription]</p>
-<p>[edit time]</p>
-<button>Update</button>
-<button>Close</button>
+<!-- delete prescription button -->
+<button>Delete Prescription</button>
+
+<!-- add prescription window -->
+<form action="" class="pop-up-window">
+    <label for="name">Name</label>
+
+    <label for="count">Count</label>
+    <input type="number" step="1" name="count" id="count">
+
+    <button>Add Prescription</button>
+</form>
+
+<!-- download button -->
+<button>Download</button>
 <br>
