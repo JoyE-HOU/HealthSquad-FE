@@ -1,16 +1,24 @@
 <button>Sign Up</button>
+
 <form action="" class="landing-page-forms" id="signup">
-    <section class="">
+
+    <section>
         <label for="username">Username</label>
-        <input type="text" name="username" id="username">
+        <input type="text" name="username" id="username" minlength="3" maxlength="15" pattern="[a-zA-Z0-9]+" required>
     </section>
-    <!-- <hr> -->
-    <section class="">
+
+    <section>
         <label for="password">Password</label>
-        <input type="password" name="password" id="password">
+        <input type="password" name="password" id="password" minlength="8" maxlength="15"required>
     </section>
-    <!-- <hr> -->
-    <p>We'll never share your info with anyone else.</p>
-    <button>Sign Up</button>
+
+    <hr>
+
+    <p>Already a member? <u><b>Log In</b></u></p>
+    <!-- when user clicks 'log in', it will redirect the user to login pop-up window -->
+
+    <input type="submit" value="Sign Up">
+
 </form>
+
 <br>
