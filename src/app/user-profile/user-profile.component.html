@@ -1,5 +1,5 @@
 <header>
-    <img src="" alt="HealthSquad logo"/>
+    <img src="../../assets/healthsquad_st_logo.png" alt="HealthSquad logo"/>
     <p>[Greeting based on time of day]</p>
     <button>Log Out</button>
 </header>
@@ -12,14 +12,18 @@
     </ul>
 </nav>
 
-<!-- be able to edit profile to classify user as caregiver -->
-<!-- <textarea name="bio" id="bio" cols="30" rows="10"></textarea> -->
+<main>
 
-<!-- prescription container -->
-<app-user-prescription-container></app-user-prescription-container>
+    <!-- be able to edit profile to classify user as caregiver -->
+    <!-- <textarea name="bio" id="bio" cols="30" rows="10"></textarea> -->
+    
+    <!-- prescription container -->
+    <app-user-prescription-container></app-user-prescription-container>
+    
+    <!-- refill container -->
+    <app-user-refill-container></app-user-refill-container>
+    
+    <!-- reminder container -->
+    <app-user-reminder-container></app-user-reminder-container>
 
-<!-- refill container -->
-<app-user-refill-container></app-user-refill-container>
-
-<!-- reminder container -->
-<app-user-reminder-container></app-user-reminder-container>
+</main>
