@@ -22,4 +22,10 @@ describe('LandingPageComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should display logo', () => {
+    const bannerElement: HTMLElement = fixture.nativeElement;
+    const img = bannerElement.querySelector('img')!;
+    expect(img.textContent).toBeFalsy();
+  });
 });
